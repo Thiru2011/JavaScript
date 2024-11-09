@@ -1,6 +1,2 @@
-
-var myVariable = "aginai";
-document.write(myVariable);
-document.write(myVariable.charAt(2))
-document.write(myVariable.lastIndexOf("i"));
-document.write(myVariable.charAt("0"));
+var myVariable = "kamini";
+console.log(myVariable.charAt((Math.floor(Math.random( )*myVariable.length))));
