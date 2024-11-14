@@ -1,15 +1,21 @@
-let customerIdBanned =true;
-let viwer ="Dhuddu full course";
-let reply;
-let finace=true;
-
- if(customerIdBanned && finace){
-   reply =`can learn ${viwer} both couse`
+let testScore = collageStudent;
+let grade;
+let collageStudent = true;
+if (testScore >=90){
+   grade = "distingtion"
 }
-else if (customerIdBanned){
-   reply ="sorry"
+else if(testScore >=80){
+   grade= "first class"
+}
+else if (testScore >=70){
+   grade=("pass")
 }
 else {
-   reply ="you cannot learn anything"
+   if (collageStudent){
+      grade ("RA")
+
+   }
+   else ("Fail")
 }
-console.log(reply)
+
+console.log(grade)
