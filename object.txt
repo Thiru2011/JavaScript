@@ -1,0 +1,90 @@
+document.write("Writing Object")
+
+// const MyObject={
+//     name:"kamini",
+//     DataBase:{
+//     Username:"minmini",
+//     age:24,
+//     contactNum:9998787998,
+//     },
+//     data:[2,5,7,7],
+//     action:function( ){
+//         return `interest to learn ${this.DataBase.age}`
+
+//     }
+// }
+
+
+// console.log(MyObject.name)
+// console.log(MyObject.DataBase.age)
+// console.log(MyObject.data)
+// console.log(MyObject.action( ))
+
+
+// const myObject={
+//     name:"cirilla",
+//     age:78,
+//     location:"linda",
+//     contact:897888777,
+//     subobj:{
+//         vehicle:"audi",
+//         whell:4
+//     },
+//     action:function( ){
+//         return `the is decribing ${this.subobj.whell}`
+//     }
+    
+// }
+// console.log(myObject.name)
+// console.log(myObject.subobj.vehicle)
+// console.log(myObject.action( ))
+
+
+// const Details={
+//     personName:"papa",
+//     studies:12,
+//     vehicle:"Car"
+// }
+// console.log(Details)
+
+// const Subdetails=new Object(Details)
+// console.log(Subdetails.personName);
+// Details.studies=5;
+//  console.log(Details.studies)
+
+// const submenu=new Object(Subdetails)
+// submenu.vehicle=function( ){
+//     return "Ashhhh"
+// }
+// console.log(submenu)
+
+
+// const car={
+//     name:"accord",
+//     type:"sedan",
+//     model:"supersonic",
+//     num:45455
+// }
+
+// for(i in car){
+//     console.log(`this is key ${i}, from the car ${car[i]}`)
+// }
+
+
+const car={
+    name:"accord",
+    type:"sedan",
+    model:"supersonic",
+    num:45455
+}
+
+// const {name:myname,type:mycar}=car;
+// console.log(myname,mycar);
+
+// const {name,type,model}=car;
+// console.log(name,type)
+
+// inheritance
+
+const vehicle=new Object(car);
+console.log(vehicle)
