@@ -1,1 +1,0 @@
-document.write("thirumurugan@gamil.com".slice(0,"thirumurugan@gamil.com".indexOf("@")));
